@@ -22,7 +22,7 @@ The apache image contains a webserver and exposes port 80. To start the containe
 ```console
 $ docker run -d -p 8080:80 nextcloud
 ```
-
+x
 Now you can access Nextcloud at http://localhost:8080/ from your host system.
 
 
@@ -71,7 +71,7 @@ Overview of the folders that can be mounted as volumes:
 - `/var/www/html/custom_apps` installed / modified apps
 - `/var/www/html/config` local configuration
 - `/var/www/html/data` the actual data of your Nextcloud
-- `/var/www/html/themes/<YOU_CUSTOM_THEME>` theming/branding
+- `/var/www/html/themes/<YOUR_CUSTOM_THEME>` theming/branding
 
 If you want to use named volumes for all of these it would look like this
 ```console
